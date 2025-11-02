@@ -11,7 +11,7 @@
     "build:web": "expo build:web",
     "build:android": "expo build:android",
     "build:ios": "expo build:ios",
-    "vercel-build": "npm run build:web"
+    "vercel-build": "expo export:web"
   },
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
