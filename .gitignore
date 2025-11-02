@@ -1,24 +1,39 @@
-# Logs
-logs
-*.log
+#Node/React Native/Expo/Web
+node_modules/
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+yarn-error.log
+dist/
+build/
+.expo/
+.expo-shared/
+web-build/
 
-node_modules
-dist
-dist-ssr
-*.local
+#Android
+android/.gradle/
+android/app/build/
+android/build/
+*.apk
+*.keystore
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+#iOS
+ios/build/
+ios/Pods/
+*.xcuserstate
+*.xcworkspace
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.swp
+*.lock
+
+#General
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+.env
+*.log
+*.tmp
+*.bak
+
+#Backend (PHP)
+backend/uploads/
+node-backend/uploads/
